@@ -31,7 +31,7 @@ const Page: NextPage = () => {
                 </div>
             </main>
             <section className={s1.section}>
-                <p>Test</p>
+                <h2>Test</h2>
             </section>
         </div>
     );

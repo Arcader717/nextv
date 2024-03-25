@@ -9,5 +9,10 @@
 }
 
 .section {
-    padding: 2rem 0;
+    padding: 2rem 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
 }
