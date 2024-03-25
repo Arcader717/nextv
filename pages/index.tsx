@@ -13,11 +13,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Next.js on Replit!</h1>
+        <h1 className={styles.title}>Welcome to Menace!</h1>
 
         <p className={styles.description}>
           Get started by editing{" "}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>Menace is a fun game. Based on Risk. Meant for small number of people use</code>
         </p>
 
         <div className={styles.grid}>
