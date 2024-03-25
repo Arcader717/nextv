@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import s from '../styles/Home.module.css'
 import s1 from '../styles/rules.module.css'
+import Link from "next/link";
 
 const Page: NextPage = () => {
     return (
