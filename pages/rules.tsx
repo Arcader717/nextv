@@ -28,10 +28,11 @@ const Page: NextPage = () => {
                         <h2>Gameplay &rarr;</h2>
                         <p>Gameplay is a little easier to understand than setup, but I still highly suggest you read this</p>
                     </Link>
-                    
                 </div>
-                
             </main>
+            <section className={s1.section}>
+                <p>Test</p>
+            </section>
         </div>
     );
 };
