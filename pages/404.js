@@ -5,7 +5,7 @@ export default function Custom404() {
   return (
     <div className={style1.container}>
       <h1 className={style1.title}>404</h1>
-      <p className={style1.description}>You moron</p>
+      <p className={style1.description}>You moron, this page doesn't exist</p>
     </div>
   )
 }
