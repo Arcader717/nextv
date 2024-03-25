@@ -14,7 +14,22 @@ const Page: NextPage = () => {
             <main className={s1.main}>
                 
                 <h1 className={s.title}>Rules</h1>
-                <p className={s.description}>Looks like I haven&apos;t finished this page! Come back later to see the additions to this page</p>
+                <p className={s.description}>Menace is mainly covered by some easy stuff, but this is to help you understand</p>
+
+
+                <div className={s.grid}>
+
+                    <Link href="/rules#setup">
+                        <h2>Setup &rarr;</h2>
+                        <p>Setup is weird. Trust me, you want to know what is happening</p>
+                    </Link>
+
+                    <Link href="/rules#gameplay">
+                        <h2>Gameplay &rarr;</h2>
+                        <p>Gameplay is a little easier to understand than setup, but I still highly suggest you read this</p>
+                    </Link>
+                    
+                </div>
                 
             </main>
         </div>
