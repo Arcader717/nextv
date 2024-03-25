@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
+
 
 const Home: NextPage = () => {
   return (
@@ -20,15 +22,15 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="/rules" className={styles.card}>
+          <Link href="/rules" className={styles.card}>
             <h2>Rules &rarr;</h2>
             <p>Learn the specifics behind the rules of Menace</p>
-          </a>
+          </Link>
 
-          <a href="/play" className={styles.card}>
+          <Link href="/play" className={styles.card}>
             <h2>Play &rarr;</h2>
             <p>Create or join a game. Fun.</p>
-          </a>
+          </Link>
         </div>
       </main>
     </div>
