@@ -6,8 +6,10 @@ import s1 from '../styles/rules.module.css'
 const Page: NextPage = () => {
     return (
         <div className={s.container}>
-            <p className={s.backarr}>&larr;</p>
-            
+            <Link href="/">
+                <p className={s.backarr}>&larr;</p>
+            </Link>
+                
             <main className={s1.main}>
                 
                 <h1 className={s.title}>Rules</h1>
