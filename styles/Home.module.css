@@ -110,6 +110,8 @@
 
 .backarr {
     font-size: 2rem;
+    margin-bottom: -10rem;
+    padding-bottom: 0rem;
 }
 
 @media (max-width: 600px) {
