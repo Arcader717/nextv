@@ -19,12 +19,12 @@ const Page: NextPage = () => {
 
                 <div className={s.grid}>
 
-                    <Link href="/rules#setup">
+                    <Link href="/rules#setup" className={s.card}>
                         <h2>Setup &rarr;</h2>
                         <p>Setup is weird. Trust me, you want to know what is happening</p>
                     </Link>
 
-                    <Link href="/rules#gameplay">
+                    <Link href="/rules#gameplay" className={s.card}>
                         <h2>Gameplay &rarr;</h2>
                         <p>Gameplay is a little easier to understand than setup, but I still highly suggest you read this</p>
                     </Link>
