@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Welcome to Menace!</h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>Menace is a fun game. Based on Risk. Meant for small number of people use</code>
+          Menace is a fun game. Based on Risk. Player count is 3 to 7.
+          <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
