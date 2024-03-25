@@ -17,34 +17,17 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Menace is a fun game. Based on Risk. Player count is 3 to 7.
-          <code className={styles.code}></code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/rules" className={styles.card}>
+            <h2>Rules &rarr;</h2>
+            <p>Learn the specifics behind the rules of Menace</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://docs.replit.com/category/deployments"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>After you are happy with this app, deploy it on Replit!</p>
+          <a href="/play" className={styles.card}>
+            <h2>Play &rarr;</h2>
+            <p>Create or join a game. Fun.</p>
           </a>
         </div>
       </main>
