@@ -5,7 +5,8 @@ import s from '../styles/Home.module.css'
 const Page: NextPage = () => {
     return (
         <div className={s.container}>
-            <p>&larr;</p>
+            <p className={s.backarr}>&larr;</p>
+            
             <main className={s.main}>
                 
                 <h1 className={s.title}>Rules</h1>

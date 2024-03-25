@@ -108,6 +108,10 @@
   margin-left: 0.2rem;
 }
 
+.backarr {
+    font-size: 1.25rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
